@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Mobilioji aplikacija</string>
+    <string name="vartotojo_vardas">vartotojo vardas</string>
+    <string name="slaptazodis">Slaptažodis</string>
+    <string name="login">Prisijungimas</string>
+    <color name="butcolor">#535B74</color>
 </resources>
