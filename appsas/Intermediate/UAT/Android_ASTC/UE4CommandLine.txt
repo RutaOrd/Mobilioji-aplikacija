@@ -1,1 +1,0 @@
-../../../appsas/appsas.uproject  /Game/various/NewMap -Messaging -SessionId=44E9B81442B375DEE7A7AFA69A65497B -SessionOwner="marty" -SessionName="Launch On Device" -iterative
