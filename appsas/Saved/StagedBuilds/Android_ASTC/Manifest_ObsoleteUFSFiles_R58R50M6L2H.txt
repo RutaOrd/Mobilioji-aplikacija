@@ -1,2 +1,0 @@
-Runtime/OpenXR/Content/Devices/ValveIndex/MRTexture.uexp
-appsas/Saved/Logs/appsas.log
