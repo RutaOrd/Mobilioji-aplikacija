@@ -18,14 +18,14 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
-public class MainActivity extends AppCompatActivity {
+public class SignUp extends AppCompatActivity {
     Button btn;
     EditText name,uname,email,pwd;
     String url="https://museumapp69.000webhostapp.com/";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_signup);
 
 
         name = (EditText) findViewById(R.id.user);
