@@ -20,6 +20,7 @@ public class MainPage extends AppCompatActivity {
         button = (Button) findViewById(R.id.button);
 
         username = findViewById(R.id.username);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,7 +32,7 @@ public class MainPage extends AppCompatActivity {
 
         if(intent.getExtras() != null){
             String passedUsername = intent.getStringExtra("data");
-            username.setText("Sveiki "+passedUsername);
+            username.setText("Sveiki, "+passedUsername);
         }
 
     }
