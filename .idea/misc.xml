@@ -3,15 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/marty/Desktop/mob2v/New folder/Mobilioji-aplikacija/app/src/main/res/drawable/ic_email.xml" value="0.2545" />
-        <entry key="..\:/Users/marty/Desktop/mob2v/New folder/Mobilioji-aplikacija/app/src/main/res/layout/activity_signup.xml" value="0.27309782608695654" />
         <entry key="..\:/Users/marty/Desktop/mobile/gay2/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/marty/Documents/GitHub/Mobilioji-aplikacija/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1365" />
-        <entry key="..\:/Users/marty/Documents/GitHub/Mobilioji-aplikacija/app/src/main/res/layout/activity_dashboard.xml" value="0.27309782608695654" />
-        <entry key="..\:/Users/marty/Documents/GitHub/Mobilioji-aplikacija/app/src/main/res/layout/activity_login.xml" value="0.2966485507246377" />
-        <entry key="..\:/Users/marty/Documents/GitHub/Mobilioji-aplikacija/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/marty/Documents/GitHub/Mobilioji-aplikacija/app/src/main/res/layout/activity_mainpage.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/marty/Documents/GitHub/Mobilioji-aplikacija/app/src/main/res/layout/activity_signup.xml" value="0.28125" />
+        <entry key="..\:/Users/rordi/Documents/GitHub/Mobilioji-aplikacija/app/src/main/res/layout/activity_mainpage.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/rordi/Documents/GitHub/Mobilioji-aplikacija/app/src/main/res/layout/activity_signup.xml" value="0.22826086956521738" />
       </map>
     </option>
   </component>
