@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".AviacijosMuziejus"
+            android:name=".Museum1"
             android:exported="false" />
         <activity
             android:name=".MainPage"

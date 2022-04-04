@@ -4,11 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class AviacijosMuziejus extends AppCompatActivity {
+public class Museum1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aviacijos_muziejus);
+        setContentView(R.layout.activity_museum1);
     }
+
 }
