@@ -10,8 +10,19 @@
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sveiki username"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="Sveiki, username"
         android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/username2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:text="Pasirinkite norimą muziejų:"
+        android:textSize="21sp" />
 
     <Button
         android:id="@+id/button"
@@ -24,7 +35,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="520dp"
         android:background="#C5BFBF"
-        android:text="Button" />
+        android:text="Lietuvos Aviacijos muziejus" />
 
     <Button
         android:id="@+id/button7"
@@ -37,7 +48,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="424dp"
         android:background="#C5BFBF"
-        android:text="Button" />
+        android:text="Nacionalinis M. K. Čiurlionio muziejus" />
 
     <Button
         android:id="@+id/button8"
@@ -50,7 +61,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="330dp"
         android:background="#C5BFBF"
-        android:text="Button" />
+        android:text="Kauno Tado Ivanausko zoologijos muziejus" />
 
     <Button
         android:id="@+id/button9"
@@ -63,7 +74,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="228dp"
         android:background="#C5BFBF"
-        android:text="Button" />
+        android:text="Vytauto Didžiojo karo muziejus" />
 
     <Button
         android:id="@+id/button10"
@@ -76,6 +87,6 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="134dp"
         android:background="#C5BFBF"
-        android:text="Button" />
+        android:text="Lietuvos švietimo istorijos muziejus" />
 
 </RelativeLayout>
