@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:hint="email"
+            android:hint="El. paštas"
             app:layout_constraintEnd_toEndOf="parent"
             android:textColorHint="@color/black"
             app:layout_constraintHorizontal_bias="0.0"
@@ -80,7 +80,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:textColorHint="@color/black"
-            android:hint="Slapyvardis"
+            android:hint="Vartotojo vardas"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -104,6 +104,7 @@
             android:layout_marginRight="30dp"
             android:hint="Slaptažodis"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayoutUsername"
+            app:passwordToggleEnabled="true"
             tools:layout_editor_absoluteX="0dp">
 
             <com.google.android.material.textfield.TextInputEditText

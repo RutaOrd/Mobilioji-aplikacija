@@ -35,36 +35,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="540dp"
+        android:layout_marginBottom="592dp"
         android:background="#C5BFBF"
 
         android:text="Lietuvos Aviacijos muziejus" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="356dp"
-        android:layout_height="63dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="444dp"
-        android:background="#C5BFBF"
-        android:text="Nacionalinis M. K. Čiurlionio muziejus" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="356dp"
-        android:layout_height="63dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="350dp"
-        android:background="#C5BFBF"
-        android:text="Kauno Tado Ivanausko zoologijos muziejus" />
 
     <Button
         android:id="@+id/button9"
@@ -75,22 +49,9 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="248dp"
+        android:layout_marginBottom="484dp"
         android:background="#C5BFBF"
         android:text="Vytauto Didžiojo karo muziejus" />
-
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="356dp"
-        android:layout_height="63dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="154dp"
-        android:background="#C5BFBF"
-        android:text="Lietuvos švietimo istorijos muziejus" />
 
     <TextView
         android:id="@+id/textView5"
