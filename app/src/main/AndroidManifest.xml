@@ -18,7 +18,7 @@
             android:name=".ExhibitsList"
             android:exported="false" />
         <activity
-            android:name=".Museum1"
+            android:name=".Museum"
             android:exported="false" />
         <activity
             android:name=".MainPage"

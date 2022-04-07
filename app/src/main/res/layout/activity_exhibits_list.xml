@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".ExhibitsList">
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="30dp"
+        android:text="Grįžti į muziejų" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"

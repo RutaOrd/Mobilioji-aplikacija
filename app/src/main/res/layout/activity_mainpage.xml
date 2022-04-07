@@ -30,26 +30,25 @@
         android:id="@+id/button"
         android:layout_width="356dp"
         android:layout_height="63dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/username2"
+        android:layout_alignParentRight="false"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="592dp"
-        android:background="#C5BFBF"
 
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C5BFBF"
         android:text="Lietuvos Aviacijos muziejus" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="356dp"
         android:layout_height="63dp"
+        android:layout_below="@+id/button"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="484dp"
         android:background="#C5BFBF"
         android:text="Vytauto Didžiojo karo muziejus" />
 

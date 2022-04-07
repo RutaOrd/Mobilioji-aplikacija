@@ -27,4 +27,24 @@
         android:text="Naujų eksponatų skenavimas"
         android:textSize="21sp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="30dp"
+        android:text="Grįžti į muziejų" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="370dp"
+        android:layout_height="269dp"
+        android:layout_below="@+id/textView7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="30dp"
+        tools:srcCompat="@android:drawable/ic_menu_camera" />
+
 </RelativeLayout>

@@ -6,8 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
-public class Museum1 extends AppCompatActivity {
+public class Museum extends AppCompatActivity {
 
     private Button button1;
     private Button button2;
@@ -20,18 +21,19 @@ public class Museum1 extends AppCompatActivity {
         button1 = (Button) findViewById(R.id.button5);
         button2 = (Button) findViewById(R.id.button3);
         button3 = (Button) findViewById(R.id.button6);
+        TextView museumText = findViewById(R.id.textView4);
+        museumText.setText(getIntent().getStringExtra("museum"));
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openExhbitsList();
+                openExhibitsList();
             }
-
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openExhbitScan();
+                openExhibitScan();
             }
 
         });
@@ -43,17 +45,17 @@ public class Museum1 extends AppCompatActivity {
 
         });
     }
-    public void  openExhbitsList(){
-        Intent intent2 = new Intent(this, ExhibitsList.class );
+
+    public void  openExhibitsList(){
+        Intent intent2 = new Intent(this, ExhibitsList.class ).putExtra("museum", getIntent().getStringExtra("museum"));
         startActivity(intent2);
     }
-    public void  openExhbitScan(){
-        Intent intent3 = new Intent(this, ExhibitScan.class );
+    public void  openExhibitScan(){
+        Intent intent3 = new Intent(this, ExhibitScan.class ).putExtra("museum", getIntent().getStringExtra("museum"));
         startActivity(intent3);
     }
     public void  openMainPage(){
-        Intent intent4 = new Intent(this, MainPage.class );
-        startActivity(intent4);
+        finish();
     }
 
 }

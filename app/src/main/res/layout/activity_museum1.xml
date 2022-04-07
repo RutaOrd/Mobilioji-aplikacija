@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Museum1">
+    tools:context=".Museum">
 
 
     <TextView
@@ -15,8 +15,7 @@
         android:layout_marginLeft="130dp"
         android:layout_marginTop="60dp"
         android:text="Lietuvos Aviacijos muziejus"
-        android:textSize="18sp"
-   />
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/button3"
@@ -44,8 +43,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="450dp"
         android:background="#C5BFBF"
-        android:text="Peržiūrėti nuskenuotus esponatus"
-    />
+        android:text="Peržiūrėti nuskenuotus esponatus" />
 
     <Button
         android:id="@+id/button6"
@@ -58,7 +56,6 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="340dp"
         android:background="#C5BFBF"
-        android:text="Grįžti į muziejų sąrašą"
-         />
+        android:text="Grįžti į muziejų sąrašą" />
 
 </RelativeLayout>
