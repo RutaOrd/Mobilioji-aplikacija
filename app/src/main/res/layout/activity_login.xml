@@ -38,7 +38,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edUsername"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="match_parent"
             android:background="@color/white"
             android:drawableRight="@drawable/ic_userimg"
             android:fontFamily="@font/poppinsmedium"
@@ -96,6 +96,7 @@
         android:gravity="center"
         android:minHeight="48dp"
         android:text="Registruotis"
+        android:textColor="#B61B1B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin"

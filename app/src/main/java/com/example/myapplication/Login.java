@@ -1,7 +1,5 @@
 package com.example.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputEditText;
 
@@ -70,11 +70,12 @@ public class Login extends AppCompatActivity {
                 if(response.isSuccessful()){
                     LoginResponse loginResponse = response.body();
                     byte[] arr1 = loginResponse.getResponse().getBytes(StandardCharsets.UTF_8);
+                    String aaa = loginResponse.getResponse().toString();
                     String str1 = "Failed";
                     byte[] arr2 = str1.getBytes(StandardCharsets.UTF_8);
 
-                    if(Arrays.equals(arr1,arr2)){
-                        Toast.makeText(Login.this,"blogai įverti vartotojo duomenys", Toast.LENGTH_LONG).show();
+                    if (Arrays.equals(arr1,arr2)){
+                        Toast.makeText(Login.this,"blogai įvesti vartotojo duomenys", Toast.LENGTH_LONG).show();
                         return;
                     }
                     else{
@@ -84,7 +85,7 @@ public class Login extends AppCompatActivity {
                             @Override
                             public void run() {
 
-                                startActivity(new Intent(Login.this, MainPage.class).putExtra("data",loginResponse.getResponse()));
+                                startActivity(new Intent(Login.this, MainActivity.class).putExtra("data",loginResponse.getResponse()));
                             }
                         },700);
                     }
